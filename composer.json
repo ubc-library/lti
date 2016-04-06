@@ -1,0 +1,23 @@
+{
+    "name": "ubc-library/lti",
+    "description": "UBC Library Course Reserves - LTI Connector Block",
+    "homepage": "http://connect.ubc.ca",
+    "authors": [
+        {
+            "name": "Stefan Khan-Kernahan",
+            "email": "stefan.khan-kernahan@ubc.ca",
+            "role": "Internal Maintainer"
+        }
+    ],
+    "support": {
+        "email": "stefan.khan-kernahan@ubc.ca",
+        "issues": "https://jira.id.ubc.ca:8443/browse/LOCRSUPP"
+    },
+    "autoload": {
+        "files": [
+            "LTI_Data_Connector_pdo.php",
+            "LTI_Tool_Provider.php",
+            "OAuth.php"
+        ]
+    }
+}
