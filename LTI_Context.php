@@ -1,5 +1,4 @@
 <?php
-    require_once("LTI_Resource_Link.php");
     /**
      * Class to represent a tool consumer context
      *
@@ -9,6 +8,8 @@
      * @version 2.3.04
      * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License, version 3
      */
+    require_once("LTI_Resource_Link.php");
+
     class LTI_Context extends LTI_Resource_Link
     {
 
