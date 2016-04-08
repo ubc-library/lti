@@ -7,6 +7,11 @@
             "name": "Stefan Khan-Kernahan",
             "email": "stefan.khan-kernahan@ubc.ca",
             "role": "Internal Maintainer"
+        },
+        {
+            "name": "Sean McNamara",
+            "email": "sean.mcnamara@ubc.ca",
+            "role": "Programmer / Composer-er"
         }
     ],
     "support": {
@@ -15,8 +20,19 @@
     },
     "autoload": {
         "files": [
+            "LTI_Consumer_Nonce.php",
+            "LTI_Context.php",
+            "LTI_Context_Share.php",
+            "LTI_Context_Share_Key.php",
+            "LTI_Data_Connector.php",
             "LTI_Data_Connector_pdo.php",
+            "LTI_OAuthDataStore.php",
+            "LTI_Outcome.php",
+            "LTI_Resource_Link.php",
+            "LTI_Resource_Link_Share.php",
+            "LTI_Resource_Link_Share_Key.php",
             "LTI_Tool_Provider.php",
+            "LTI_User.php",
             "OAuth.php"
         ]
     }

@@ -2,5 +2,4 @@
 vendor
 composer.phar
 
-.idea/
-.idea/vcs.xml
+.idea/*
