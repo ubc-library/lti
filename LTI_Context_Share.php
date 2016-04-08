@@ -10,6 +10,7 @@
      * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License, version 3
      */
     require_once("LTI_Resource_Link_Share.php");
+
     class LTI_Context_Share extends LTI_Resource_Link_Share {
 
         /**

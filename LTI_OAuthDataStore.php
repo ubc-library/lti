@@ -6,6 +6,7 @@
      * @version 2.3.04
      * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License, version 3
      */
+    require_once("oauth/OAuthDataStore.php");
     class LTI_OAuthDataStore extends OAuthDataStore {
 
         /**
