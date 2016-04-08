@@ -37,12 +37,7 @@
      *                      Fixed bug with returned outcome values of zero
      *   2.3.04  13-Aug-13  Ensure nonce values are no longer than 32 characters
      */
-
-    /**
-     * OAuth library file
-     */
-    require_once('OAuth.php');
-
+    
     /**
      * Class to represent an LTI Tool Provider
      *
