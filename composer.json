@@ -33,7 +33,17 @@
             "LTI_Resource_Link_Share_Key.php",
             "LTI_Tool_Provider.php",
             "LTI_User.php",
-            "OAuth.php"
+            "oauth/OAuthConsumer.php",
+            "oauth/OAuthDataStore.php",
+            "oauth/OAuthException.php",
+            "oauth/OAuthRequest.php",
+            "oauth/OAuthServer.php",
+            "oauth/OAuthSignatureMethod.php",
+            "oauth/OAuthSignatureMethod_HMAC_SHA1.php",
+            "oauth/OAuthSignatureMethod_PLAINTEXT.php",
+            "oauth/OAuthSignatureMethod_RSA_SHA1.php",
+            "oauth/OAuthToken.php",
+            "oauth/OAuthUtil.php"
         ]
     }
 }
