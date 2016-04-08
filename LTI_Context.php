@@ -1,5 +1,5 @@
 <?php
-
+    require_once("LTI_Resource_Link.php");
     /**
      * Class to represent a tool consumer context
      *
